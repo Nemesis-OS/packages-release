@@ -1,1 +1,15 @@
+hew
+0.1
 
+[depends]
+[end-depends]
+[source]
+https://github.com/abrik1/hew.git
+[end-source]
+[build]
+cd hew
+gcc hew.c -o hew
+[end-build]
+[install]
+install -Dm755 hew /usr/bin/hew
+[end-install]
