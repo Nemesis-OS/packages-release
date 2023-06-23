@@ -1,0 +1,7 @@
+maxfetch 1.0
+[source]
+https://raw.githubusercontent.com/jobcmax/maxfetch/main/maxfetch
+[end-source]
+[build]
+install -Dm755 maxfetch /usr/bin/maxfetch
+[end-build]
