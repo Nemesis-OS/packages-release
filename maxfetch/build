@@ -1,7 +1,7 @@
 [core]
 name="maxfetch"
 version="1.0"
-source = "https://raw.githubusercontent.com/jobcmax/maxfetch/main/maxfetch"
+source = "https://github.com/jobcmax/maxfetch"
 
 [build]
-command = install -Dm755 maxfetch /usr/bin/maxfetch
+command = "install -Dm755 maxfetch /usr/bin/maxfetch"
