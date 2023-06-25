@@ -1,0 +1,7 @@
+[core]
+name = "choosenim"
+version = "0.8.4"
+source = "https://github.com/xTrayambak/nemesis-choosenim.git"
+
+[build]
+command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 choosenim /usr/bin/choosenim"
