@@ -1,0 +1,8 @@
+[core]
+name = "neovim"
+version = "0.9.1"
+source = "https://github.com/neovim/neovim/archive/refs/tags/stable.tar.gz"
+is_tar = true
+
+[build]
+command = "tar -xvf stable.tar.gz && cd neovim-stable && make && sudo make install"
