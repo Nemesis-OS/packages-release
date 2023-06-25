@@ -5,4 +5,4 @@ source = "https://github.com/neovim/neovim/archive/refs/tags/stable.tar.gz"
 is_tar = true
 
 [build]
-command = "tar -xvf stable.tar.gz && cd neovim-stable && make && sudo make install"
+command = "cd $NEMESIS_PKG_BUILD_DIR && make && sudo make install"
