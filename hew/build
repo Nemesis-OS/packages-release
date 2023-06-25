@@ -1,15 +1,7 @@
-hew
-0.1
+[core]
+name = "hew"
+version = "0.1"
+source = "https://github.com/abrik1/hew.git"
 
-[depends]
-[end-depends]
-[source]
-https://github.com/abrik1/hew.git
-[end-source]
 [build]
-cd hew
-gcc hew.c -o hew
-[end-build]
-[install]
-install -Dm755 hew /usr/bin/hew
-[end-install]
+command = "cd hew && gcc hew.c -o hew && install -Dm755 hew /usr/bin/hew"
