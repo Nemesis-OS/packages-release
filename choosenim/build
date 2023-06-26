@@ -4,4 +4,5 @@ version = "0.8.4"
 source = "https://github.com/Nemesis-OS/nemesis-choosenim.git"
 
 [build]
+files = ["/usr/bin/choosenim"]
 command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 init.sh /usr/bin/choosenim"

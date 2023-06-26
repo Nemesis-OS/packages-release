@@ -4,4 +4,5 @@ version="1.0"
 source = "https://github.com/jobcmax/maxfetch"
 
 [build]
+files = ["/usr/bin/maxfetch"]
 command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 maxfetch /usr/bin/maxfetch"

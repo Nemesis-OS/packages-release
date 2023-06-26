@@ -4,4 +4,5 @@ version = "0.1"
 source = "https://github.com/abrik1/hew.git"
 
 [build]
+files = ["/usr/bin/hew"]
 command = "cd $NEMESIS_PKG_BUILD_DIR && gcc hew.c -o hew && install -Dm755 hew /usr/bin/hew"

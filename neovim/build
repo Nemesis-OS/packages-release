@@ -5,4 +5,5 @@ source = "https://github.com/Nemesis-OS/nemesis-neovim.git"
 is_tar = true
 
 [build]
+files = ["/usr/local/bin/nvim", "/usr/share/nvim"]
 command = "cd $NEMESIS_PKG_BUILD_DIR && unzip stable.zip && cd neovim-stable && make && sudo make install"
