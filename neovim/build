@@ -1,8 +1,8 @@
 [core]
 name = "neovim"
 version = "0.9.1"
-source = "https://github.com/neovim/neovim/archive/refs/tags/stable.tar.gz"
+source = "https://github.com/Nemesis-OS/nemesis-neovim.git"
 is_tar = true
 
 [build]
-command = "cd $NEMESIS_PKG_BUILD_DIR && make && sudo make install"
+command = "cd $NEMESIS_PKG_BUILD_DIR && unzip stable.zip && cd neovim-stable && make && sudo make install"
