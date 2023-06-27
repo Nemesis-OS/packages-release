@@ -1,9 +1,9 @@
 [core]
 name="lmf"
 version="1.0"
-source = "https://github.com/jobcmax/maxfetch"
+source = "https://github.com/abrik1/lmaxfetch"
 depends = ['maxfetch']
 
 [build]
-files = ["/usr/bin/maxfetch"]
-command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 maxfetch /usr/bin/maxfetch"
+files = ["/usr/bin/lmaxfetch"]
+command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 lmf /usr/bin/lmf"
