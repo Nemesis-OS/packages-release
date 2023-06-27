@@ -5,5 +5,5 @@ source = "https://github.com/abrik1/lmaxfetch"
 depends = ['maxfetch']
 
 [build]
-files = ["/usr/bin/lmaxfetch"]
+files = ["/usr/bin/lmf"]
 command = "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 lmf /usr/bin/lmf"
