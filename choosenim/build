@@ -2,6 +2,7 @@
 name = "choosenim"
 version = "0.8.4"
 source = "https://github.com/Nemesis-OS/nemesis-choosenim.git"
+depends = []
 
 [build]
 files = ["/usr/bin/choosenim"]
