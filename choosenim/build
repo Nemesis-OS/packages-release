@@ -3,6 +3,7 @@ name = "choosenim"
 version = "0.8.4"
 source = "https://github.com/Nemesis-OS/nemesis-choosenim.git"
 depends = []
+cpu_flags = []
 
 [build]
 files = ["/usr/bin/choosenim"]
