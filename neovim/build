@@ -3,6 +3,7 @@ name = "neovim"
 version = "0.9.1"
 source = "https://github.com/Nemesis-OS/nemesis-neovim.git"
 is_tar = true
+cpu_flags = []
 
 [build]
 files = ["/usr/local/bin/nvim", "/usr/share/nvim"]
