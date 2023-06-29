@@ -3,7 +3,7 @@ name = "hew"
 version = "0.1"
 source = "https://github.com/abrik1/hew.git"
 depends = []
-cpu_flags = ['mmx2']
+cpu_flags = []
 
 [build]
 files = ["/usr/bin/hew"]
