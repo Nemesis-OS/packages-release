@@ -5,7 +5,7 @@
 	"source": "https://github.com/abrik1/hew",
 	"depends": [],
 	"cpu_flags": []
-    }
+    },
 
     "build": {
 	"files": ["/usr/bin/hew"]
