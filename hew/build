@@ -1,10 +1,14 @@
-[core]
-name = "hew"
-version = "0.1"
-source = "https://github.com/abrik1/hew.git"
-depends = []
-cpu_flags = []
+{
+    "core": {
+	"name": "hew",
+	"version": "0.1",
+	"source": "https://github.com/jobcmax/maxfetch",
+	"depends": [],
+	"cpu_flags": [],
+    }
 
-[build]
-files = ["/usr/bin/hew"]
-command = "cd $NEMESIS_PKG_BUILD_DIR && gcc hew.c -o hew && install -Dm755 hew /usr/bin/hew"
+    "build": {
+	"files": ["/usr/bin/hew"]
+	"command": "cd $NEMESIS_PKG_BUILD_DIR && gcc hew.c -o hew && install -Dm755 hew /usr/bin/hew"
+    }
+}
