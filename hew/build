@@ -2,9 +2,9 @@
     "core": {
 	"name": "hew",
 	"version": "0.1",
-	"source": "https://github.com/jobcmax/maxfetch",
+	"source": "https://github.com/abrik1/hew",
 	"depends": [],
-	"cpu_flags": [],
+	"cpu_flags": []
     }
 
     "build": {
