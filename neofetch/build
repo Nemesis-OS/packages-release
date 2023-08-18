@@ -1,0 +1,13 @@
+{
+    "core":{
+	"name": "neofetch",
+	"version": "7.1.0",
+	"source": "https://github.com/dylanaraps/neofetch",
+	"depends": [],
+	"cpu_flags": []
+    },
+    "build":{
+	"files": ["/usr/bin/neofetch"],
+	"command": "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 neofetch /usr/bin/neofetch" 
+    }
+}
