@@ -1,11 +1,13 @@
-[core]
-name = "neovim"
-version = "0.9.1"
-source = "https://github.com/Nemesis-OS/nemesis-neovim.git"
-is_tar = true
-depends = []
-cpu_flags = []
-
-[build]
-files = ["/usr/local/bin/nvim","/usr/share/nvim"]
-command = "cd $NEMESIS_PKG_BUILD_DIR && unzip stable.zip && cd neovim-stable && make && sudo make install"
+{
+    "core":{
+	"name": "neovim",
+	"version": "0.9.1",
+	"source": "https://github.com/Nemesis-OS/nemesis-neovim.git",
+	"depends": [],
+	"cpu_flags": []
+    },
+    "build":{
+	"files": ["/usr/local/bin/nvim", "/usr/share/nvim],
+	"command": "cd $NEMESIS_PKG_BUILD_DIR && unzip stable.zip && cd neovim-stable && make && sudo make install" 
+    }
+}
