@@ -9,6 +9,6 @@
 	
     "build":{
 	"files": ["/usr/bin/lmf"],
-	"command": "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 maxfetch /usr/bin/maxfetch" 
+	"command": "cd $NEMESIS_PKG_BUILD_DIR && install -Dm755 lmf /usr/bin/lmf" 
     }
 }
