@@ -1,11 +1,10 @@
 # packages
 Package repository for NemesisOS
 
-# package structure
+# repo structure
+
 ```
-|-$first-alphabet
-|--$pkgname
-|---build
-|---flist
-|---patch.patch[needed by some packages]
+$pkgname
+|- build
+$reponame.PKGLIST # database in which store $pkgname and $pkgver
 ```
