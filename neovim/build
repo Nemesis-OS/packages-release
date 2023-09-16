@@ -8,6 +8,6 @@
     },
     "build":{
 	"files": ["/usr/local/bin/nvim", "/usr/share/nvim"],
-	"command": "cd $NEMESIS_PKG_BUILD_DIR && unzip stable.zip && cd neovim-stable && make && sudo make install" 
+	"command": "cd $NEMESIS_PKG_BUILD_DIR && cd neovim-0.9.2 && make && make install" 
     }
 }
