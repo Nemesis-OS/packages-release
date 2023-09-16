@@ -2,7 +2,7 @@
     "core":{
 	"name": "lmf",
 	"version": "1.0",
-	"source": "https://github.com/abrik1/lmaxfetch",
+	"source": "https://github.com/abrik1/lmaxfetch.git",
 	"depends": ["maxfetch"],
 	"cpu_flags": []
     },
