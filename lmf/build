@@ -3,7 +3,7 @@
 	"name": "lmf",
 	"version": "1.0",
 	"source": "https://github.com/abrik1/lmaxfetch",
-	"depends": ['maxfetch'],
+	"depends": ["maxfetch"],
 	"cpu_flags": []
     },
 	
