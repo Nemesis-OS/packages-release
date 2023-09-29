@@ -2,7 +2,7 @@
     "core":{
 	"name": "neofetch",
 	"version": "7.1.0",
-	"source": "https://github.com/dylanaraps/neofetch",
+	"source": "https://github.com/dylanaraps/neofetch.git",
 	"depends": [],
 	"cpu_flags": []
     },
