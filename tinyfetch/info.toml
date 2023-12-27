@@ -1,0 +1,11 @@
+package = "tinyfetch"
+version = "0.2"
+description = "A simple fetching program in C"
+depends = []
+makedepends = ["gcc"]
+conflicts = ["tinyfetch-git"]
+licence = "MIT"
+
+[source]
+files = ["https://github.com/abrik1/tinyfetch/archive/refs/tags/0.2.tar.gz"]
+sha = ["d7cc65eedc27adf95bfcfbad2e81bcb01649fab44a9bc2d203cf1b1ae9a71edd"]
