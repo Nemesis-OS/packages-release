@@ -1,7 +1,23 @@
-firefox 117.0.1
-hew 0.1
-maxfetch 1.2
-neofetch 7.1.0
-choosenim 0.8.4
-neovim 0.9.2
-lmf 1.0
+[firefox]
+version="117.0.1"
+description="Standalone web browser from mozilla.org"
+
+[hew]
+version="0.1"
+description="A simple program printing hello world"
+
+[maxfetch]
+version="1.2"
+description="a fetching program written in shell by jobcmax"
+
+[neofetch]
+version="7.1.0"
+description="A CLI system information tool written in BASH that supports displaying images."
+
+[choosenim]
+version="0.8.4"
+description="Tool for easily installing and managing multiple versions of the Nim programming language."
+
+[neovim]
+version="0.9.2"
+description="Fork of Vim aiming to improve user experience, plugins, and GUIs"
